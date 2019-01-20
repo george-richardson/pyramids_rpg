@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Pyramids</title>
+	<link href="https://fonts.googleapis.com/css?family=Nanum+Brush+Script" rel="stylesheet">
+	<style>
+		html,
+		body {
+			height: 100%;
+			margin: 0;
+		}
+
+		footer {
+			position: fixed;
+			bottom: 0;
+			font-family: 'Times New Roman', Times, serif;
+		}
+
+		table {
+			border-collapse: collapse;
+			border-spacing: 0;
+			width: 100%;
+		}
+
+		td,
+		th {
+			border: 1px solid transparent;
+		}
+
+		th {
+			background: #DFDFDF;
+			font-weight: bold;
+		}
+
+		td {
+			text-align: center;
+		}
+
+		.page {
+			display: flex;
+			page-break-after: always;
+			height: 100%;
+			padding: 0.2in;
+			box-sizing: border-box;
+
+			font-family: 'Nanum Brush Script', cursive;
+
+			background-image: url("pyramid.png");
+			background-position: center;
+			background-size: contain;
+			background-repeat: no-repeat;
+			background-clip: content-box;
+		}
+
+		.column {
+			flex: 50%;
+			opacity: 1;
+			box-sizing: border-box;
+			margin: 0.1in;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="page">
+		<div class="column">
+			<h1>Pyramids</h1>
+
+			<p>The Pharoah is dead! Long live the Pharoah! You have just finished working on constructing the great pyramid in
+				which the old Pharoah shall spend eternity, unfortunately the new Pharoah wants you to join him. He has entombed
+				you in the pyramid that you yourself helped build to aid with repairs in his father's afterlife. Using your skills
+				you must escape before Osiris can pass judgement on your souls. And hey, there seems to be a lot of jewels around
+				here nobody is using...</p>
+
+			<p>The Pyramid is a mystical place, built to a specification to allow maximum alignment with the stars, and as such
+				you can expect to see and hear things you would never have dreamed were possible. </p>
+
+			<h2>Playing the Game</h2>
+
+			<p>This game is an RPG for one to many players and a Pyramid Master (PM). Before starting players generate their
+				characters using the rules below, while the PM generates a pyramid for the players attempt their escape from using
+				the rules overleaf. The objective for the players is to escape the pyramid by using their skills to get through
+				three chambers which
+				contain various challenges.</p>
+
+			<p>The PM will describe each chamber and it is up to the players how they will proceed, describing the actions they
+				wish to take to the PM. If any actions are non-trivial, for example jumping a large gap or persuading someone you
+				are in fact an estate agent, the PM will call on a player to make a skill check. Players have three skills with
+				which
+				they can do this: <ul>
+					<li>Strength - The physical prowess of the character, used in the moving of heavy objects or the slaying of foes.</li>
+					<li>Intellect - How mentally agile a character is. Useful when disabling traps or studying hieroglyphs. </li>
+					<li>Charm - Is your character silver tongued, or perhaps a fool with a foot in his mouth? Charm is used for
+						persuasion, coercion or even flirtation.</li>
+				</ul>
+				To pass the action a player must roll underneath their skill's value on 2d4, adding the two dice together. A
+				player's skills
+				base values are taken from their profession determined below but can be modified up or down with items which are
+				also detailed later. The PM may decide that an action a player wishes to perform is abnormally difficult, for
+				example backflipping while throwing a dagger or recalling every single Egyptian God in reverse alphabetical order,
+				in this case they may ask the player to succeed twice in a row on a skill check to proceed.
+			</p>
+
+		</div>
+		<div class="column">
+
+			<p>Each player starts play with a single item chosen from the items table. Upon completing the first and second
+				chamber each player will be rewarded with a single item determined by rolling on the items table. Some items will
+				have an affect on stats which should be taken into account when making skill checks. Other items may not have a
+				statistical effect but will allow the player to describe actions that would perhaps otherwise be impossible, for
+				example using a rope to swing across a chasm, it is up to the PM and player to agree on whether an item is useful
+				in any given situation. </p>
+
+			<p>When a player makes a skill check and both dice results are the same, i.e. double ones, twos, threes or fours,
+				then the <strong>Stars Have Aligned</strong>. Pyramids are places of high strangeness and who knows what kind of
+				mystical forces are at play, when the stars have aligned the player must make a d44 roll and check the result on
+				the star alignment table. Alignments can have
+				gameplay effects like stat changes or can introduce a new element role play element to the chamber that the PM will
+				have to describe to players. The PM can ask players to reroll on the alignment table if an effect has already
+				occured once and doesn't make sense to happen again.
+			</p>
+
+			<p>Every player starts with 3 health, the PM can inflict damage on you when you fail checks or trigger traps. If you
+				fall to zero health you die and lose the game.</p>
+
+			<h3>The d44</h3>
+
+			<p>Some of the roll tables in these rules require rolling a d44. To do so roll a d4 twice; once for the tens and
+				once for the ones. For example Apophis first rolls a three and then a two when gaining an item, this means he
+				should look at the row with 32 as the d44 roll result.</p>
+
+			<h3>
+				Golden Rule
+			</h3>
+			<p>The golden rule of Pyramids is to have fun and not take it too seriously. Don't be afraid to do silly voices or
+				describe ridiculous situations and actions.</p>
+
+			<h2>Character Creation</h2>
+
+			<p>A player must roll or choose a profession from the table below, this will determine their character's base values
+				to use when making skill checks. They should then take a couple of moments to give their character a name and think
+				of a personality</p>
+
+			<table>
+				<tr>
+					<th>d4</th>
+					<th>Profession</th>
+					<th>Stats</th>
+				</tr>
+				<tr>
+					<td>1</td>
+					<td>Royal Guard</td>
+					<td>Strength 6, Intellect 4, Charm 4</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>Architect</td>
+					<td>Strength 4, Intellect 6, Charm 4</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>Concubine</td>
+					<td>Strength 4, Intellect 4, Charm 6</td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>Slave</td>
+					<td>Strength 5, Intellect 5, Charm 5</td>
+				</tr>
+			</table>
+
+			<p>Every character also starts with one item chosen from the items table detailed later. </p>
+
+		</div>
+	</div>
+
+	<div class="page">
+		<div class="column">
+			<h2>Items</h2>
+
+			<table>
+				<tr>
+					<th>d44</th>
+					<th>Item</th>
+				</tr>
+				<tr>
+					<td>11</td>
+					<td><strong>Khopesh</strong> - An iron sickle sword, adds 1 to Strength when attacking someone.</td>
+				</tr>
+				<tr>
+					<td>12</td>
+					<td><strong>Encyclopedia Aegyptus</strong> - Useful for pop quizzes on egyptian history.</td>
+				</tr>
+				<tr>
+					<td>13</td>
+					<td><strong>Ankh</strong> - Symbol of life, ignore 1 damage then discard.</td>
+				</tr>
+				<tr>
+					<td>14</td>
+					<td><strong>Sphynx Plushie</strong> - Poses a riddle when the tail is pulled.</td>
+				</tr>
+				<tr>
+					<td>21</td>
+					<td>Lorem ipsum dolor sit amet.</td>
+				</tr>
+				<tr>
+					<td>22</td>
+					<td>Lorem ipsum dolor sit amet.</td>
+				</tr>
+				<tr>
+					<td>23</td>
+					<td>Lorem ipsum dolor sit amet.</td>
+				</tr>
+				<tr>
+					<td>24</td>
+					<td>Lorem ipsum dolor sit amet.</td>
+				</tr>
+				<tr>
+					<td>31</td>
+					<td>Lorem ipsum dolor sit amet.</td>
+				</tr>
+				<tr>
+					<td>32</td>
+					<td>Lorem ipsum dolor sit amet.</td>
+				</tr>
+				<tr>
+					<td>33</td>
+					<td>Lorem ipsum dolor sit amet.</td>
+				</tr>
+				<tr>
+					<td>34</td>
+					<td>Lorem ipsum dolor sit amet.</td>
+				</tr>
+				<tr>
+					<td>41</td>
+					<td>Lorem ipsum dolor sit amet.</td>
+				</tr>
+				<tr>
+					<td>42</td>
+					<td>Lorem ipsum dolor sit amet.</td>
+				</tr>
+				<tr>
+					<td>43</td>
+					<td>Lorem ipsum dolor sit amet.</td>
+				</tr>
+				<tr>
+					<td>44</td>
+					<td>Lorem ipsum dolor sit amet.</td>
+				</tr>
+			</table>
+
+			<h2>Star Alignment</h2>
+
+			<table>
+				<tr>
+					<th>d44</th>
+					<th>Alignment Effect</th>
+				</tr>
+				<tr>
+					<td>11</td>
+					<td><strong>Blessing of Thoth</strong> - gain 1 Intellect.</td>
+				</tr>
+				<tr>
+					<td>12</td>
+					<td><strong>Curse of Montu</strong> - lose 1 Strength.</td>
+				</tr>
+				<tr>
+					<td>13</td>
+					<td><strong>Time Travel</strong> - your character suddenly ages 30 years.</td>
+				</tr>
+				<tr>
+					<td>14</td>
+					<td><strong>End Times</strong> - the end times are nigh, a portal to the underworld appears and Osiris steps
+						through.</td>
+				</tr>
+				<tr>
+					<td>21</td>
+					<td><strong>Ancient Aliens</strong> - a lone alien teleports into the center of the room.</td>
+				</tr>
+				<tr>
+					<td>22</td>
+					<td>Lorem ipsum dolor sit amet.</td>
+				</tr>
+				<tr>
+					<td>23</td>
+					<td>Lorem ipsum dolor sit amet.</td>
+				</tr>
+				<tr>
+					<td>24</td>
+					<td>Lorem ipsum dolor sit amet.</td>
+				</tr>
+				<tr>
+					<td>31</td>
+					<td>Lorem ipsum dolor sit amet.</td>
+				</tr>
+				<tr>
+					<td>32</td>
+					<td>Lorem ipsum dolor sit amet.</td>
+				</tr>
+				<tr>
+					<td>33</td>
+					<td>Lorem ipsum dolor sit amet.</td>
+				</tr>
+				<tr>
+					<td>34</td>
+					<td>Lorem ipsum dolor sit amet.</td>
+				</tr>
+				<tr>
+					<td>41</td>
+					<td>Lorem ipsum dolor sit amet.</td>
+				</tr>
+				<tr>
+					<td>42</td>
+					<td>Lorem ipsum dolor sit amet.</td>
+				</tr>
+				<tr>
+					<td>43</td>
+					<td>Lorem ipsum dolor sit amet.</td>
+				</tr>
+				<tr>
+					<td>44</td>
+					<td>Lorem ipsum dolor sit amet.</td>
+				</tr>
+			</table>
+
+		</div>
+		<div class="column">
+			<h2>Pyramid Master Guide</h2>
+
+			<p>It is the Pyramid Master's job to set the scene for the players and keep the game on track. Although you will
+				often find yourself in an adversarial position to players, remember its about everyone having fun and not about
+				winning.</p>
+
+			<h2>Pyramid Creation</h2>
+
+			<p>Use the following tables to create the pyramid that the players need to escape from, you can either roll (d6) or
+				choose. Each chamber has a short
+				description that should be used as a jumping off point for your imagination. At the start of each chamber take some
+				time to describe the chamber and answer any questions the players may have about the situation they find themselves
+				in. You will definitely have to improv some answers! A more advanced PM may wish to ignore the tables and create
+				their own adventure, just remember that each chamber should be slightly weirder and harder than the last.</p>
+
+			<h3>Chamber 1</h3>
+			<table>
+				<tr>
+					<th>d6</th>
+					<th>Description</th>
+				</tr>
+				<tr>
+					<td>1</td>
+					<td>The Mercury Room - many streams of toxic mercury divide up the room into a strange pattern. The fumes are
+						deadly if exposed for long enough.</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>Lorem ipsum dolor sit amet.</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>Lorem ipsum dolor sit amet.</td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>Lorem ipsum dolor sit amet.</td>
+				</tr>
+				<tr>
+					<td>5</td>
+					<td>Lorem ipsum dolor sit amet.</td>
+				</tr>
+				<tr>
+					<td>6</td>
+					<td>Lorem ipsum dolor sit amet.</td>
+				</tr>
+			</table>
+
+			<h3>Chamber 2</h3>
+			<table>
+				<tr>
+					<th>d6</th>
+					<th>Description</th>
+				</tr>
+				<tr>
+					<td>1</td>
+					<td>The Sphinx's Lair - An empty room except for the giant mythical creature standing in the center. Answer his
+						questions three to proceed unharmed.</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>Lorem ipsum dolor sit amet.</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>Lorem ipsum dolor sit amet.</td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>Lorem ipsum dolor sit amet.</td>
+				</tr>
+				<tr>
+					<td>5</td>
+					<td>Lorem ipsum dolor sit amet.</td>
+				</tr>
+				<tr>
+					<td>6</td>
+					<td>Lorem ipsum dolor sit amet.</td>
+				</tr>
+			</table>
+
+			<h3>Chamber 3</h3>
+			<table>
+				<tr>
+					<th>d6</th>
+					<th>Description</th>
+				</tr>
+				<tr>
+					<td>1</td>
+					<td>The Pharoah's Death Party - Now reanimated the dead pharoah is holding a party to celebrate his death, the
+						players must excuse themselves without offending him.</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>Lorem ipsum dolor sit amet.</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>Lorem ipsum dolor sit amet.</td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>Lorem ipsum dolor sit amet.</td>
+				</tr>
+				<tr>
+					<td>5</td>
+					<td>Lorem ipsum dolor sit amet.</td>
+				</tr>
+				<tr>
+					<td>6</td>
+					<td>Lorem ipsum dolor sit amet.</td>
+				</tr>
+			</table>
+
+		</div>
+	</div>
+
+	<footer>
+		Created by George Richardson (<a href="https://gjhr.me">https://gjhr.me</a>) for GORM Podcast (<a href="https://gormpodcast.com">https://gormpodcast.com</a>).
+	</footer>
+</body>
+
+</html>
