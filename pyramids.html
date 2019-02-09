@@ -4,31 +4,12 @@
 <head>
 	<meta charset="utf-8">
 	<title>Pyramids</title>
+	<meta name="description" content="An egyptian themed micro RPG. Fun, stupid and free!">
 	<link href="https://fonts.googleapis.com/css?family=Kalam" rel="stylesheet">
 	<style>
 		html,
 		body {
-			height: 100%;
-			margin: 0;
-
 			font-family: 'Kalam', cursive;
-		}
-
-		h1,
-		h2,
-		h3,
-		p {
-			margin: 0 0 0.05in 0;
-		}
-
-		footer {
-			position: fixed;
-			bottom: 0.05in;
-			left: 0.05in;
-			right: 0.05in;
-			text-align: center;
-			opacity: 0.5;
-			font-size: 0.8em;
 		}
 
 		table {
@@ -52,32 +33,82 @@
 			text-align: left;
 		}
 
-		.page {
-			display: flex;
-			page-break-after: always;
-			height: 100%;
-			padding: 0.1in;
-			box-sizing: border-box;
-
-			font-size: 0.7em;
-
-			background-image: url("pyramid.png");
-			background-position: center;
-			background-size: contain;
-			background-repeat: no-repeat;
-			background-clip: content-box;
+		footer {
+			text-align: center;
+			opacity: 0.5;
 		}
 
-		.column {
-			flex: 50%;
-			opacity: 1;
-			box-sizing: border-box;
-			margin: 0.1in;
+		#download-header {
+			text-align: center;
+		}
+
+		@media print {
+
+			html,
+			body {
+
+				height: 100%;
+				margin: 0;
+			}
+
+			h1,
+			h2,
+			h3,
+			p {
+				margin: 0 0 0.05in 0;
+			}
+
+			.page {
+				display: flex;
+				page-break-after: always;
+				height: 100%;
+				padding: 0.1in;
+				box-sizing: border-box;
+
+				background-image: url("pyramid.png");
+				background-position: center;
+				background-size: contain;
+				background-repeat: no-repeat;
+				background-clip: content-box;
+
+				font-size: 0.7em;
+			}
+
+			.column {
+				flex: 50%;
+				opacity: 1;
+				box-sizing: border-box;
+				margin: 0.1in;
+			}
+
+			footer {
+				position: fixed;
+				bottom: 0.05in;
+				left: 0.05in;
+				right: 0.05in;
+				font-size: 0.8em;
+			}
+
+			#download-header {
+				display: none;
+			}
+		}
+
+		@media screen {
+			footer {
+				margin-top: 10px;
+			}
+
+			body {
+				margin: auto;
+				max-width: 650px;
+			}
 		}
 	</style>
 </head>
 
 <body>
+	<div id="download-header"> <a href="pyramids.pdf" download>Download the PDF to print and play at home.</a> </div>
 	<div class="page">
 		<div class="column">
 			<h1>Pyramids</h1>
