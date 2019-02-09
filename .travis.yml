@@ -26,7 +26,7 @@ deploy:
       branch: master
     access_key_id: $AWS_ACCESS_KEY_ID
     secret_access_key: $AWS_SECRET_ACCESS_KEY
-    bucket: gjhr.me
+    bucket: pyramids.gormpodcast.com
     skip_cleanup: true
     local_dir: site
     region: eu-west-1
@@ -34,4 +34,4 @@ deploy:
     on:
       branch: master
     skip_cleanup: true
-    script: "pip install --user awscli && aws cloudfront create-invalidation --distribution-id E3AI95P0PTTR3D --paths '/*'"
+    script: "pip install --user awscli && aws cloudfront create-invalidation --distribution-id E3N8XAJA84CFE2 --paths '/*'"
