@@ -1,2 +1,5 @@
 node_modules
 *.pdf
+.terraform
+*.tfstate
+*.tfstate.backup
