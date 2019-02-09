@@ -1,0 +1,23 @@
+{
+  "name": "pyramids_rpg",
+  "version": "0.0.1",
+  "description": "An egyptian themed micro RPG. Fun, stupid and free!",
+  "main": "print.js",
+  "dependencies": {
+    "puppeteer": "^1.11.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/george-richardson/pyramids_rpg.git"
+  },
+  "author": "George Richardson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/george-richardson/pyramids_rpg/issues"
+  },
+  "homepage": "https://github.com/george-richardson/pyramids_rpg#readme"
+}
